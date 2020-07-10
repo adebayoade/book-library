@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 1rem;
+  min-height: 50vh;
+  /* border: 2px solid #555; */
+  box-shadow: 5px 5px 10px;
+}
+
+.container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box input[type='text'] {
+  padding: 0.2rem;
+}
+
+.success {
+  background-color: green;
+}
+
+.danger {
+  background-color: crimson;
+}
+
+.success, .danger {
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+
+
+
+#add-book input {
+  display: block;
+  width: 100%;
+  border: 1px solid #D1D1D1;
+  border-radius: 5px;
+  margin: 0.2rem 0 1rem 0;
+  padding: 0.75rem;
+}
+
+#add-book input[type="submit"] {
+  cursor: pointer;
+}
+
+#books-list {
+  width: 100%;
+  text-align: left;
+}
+
+#books-list th {
+  border-bottom: 1px solid #555;
+  border-collapse: collapse;
+}
+
+#books-list th, td {
+  padding: 0.75rem  0.5rem 0.75rem 0;
+}
+
+#books-list i {
+  cursor: pointer;
+}
